@@ -41,7 +41,6 @@ def check_win_x(move):
             if move[j-1] == 'X':
                 prevecs += 1
                 if prevecs == 3:
-                    print('Победа X')
                     return True
     return False
 
@@ -53,7 +52,6 @@ def check_win_o(move):
             if move[j-1] == 'O':
                 prevecs += 1
                 if prevecs == 3:
-                    print('Победа O')
                     return True
     return False
 
